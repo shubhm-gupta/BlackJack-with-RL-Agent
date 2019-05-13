@@ -1,15 +1,16 @@
 # BlackJack-with-RL-Agent
-Building a Reinforcement Learning Agent Using Q-Learning for the famous Casino Game "BlackJack"
+**Building a Reinforcement Learning Agent Using Q-Learning for the famous Casino Game "BlackJack"**
 
 Reinforcement learning is considered as one of three machine learning paradigms, alongside supervised learning and unsupervised learning. Reinforcement Learning(RL) is a type of machine learning technique that enables an agent to learn in an interactive environment by trial and error using feedback from its own actions and experiences. A basic Reinforcement Learning model comprises of below :
 
-- Reward: $R_t$ is a scaler feedback signal to the agent to indicate how good or bad is the agent performing at any time $t$ .
 
-- State: $S_t$ represents current and future states. 
+- Reward: **R<sub>t</sub>** is a scaler feedback signal to the agent to indicate how good or bad is the agent performing at any time $t$ .
 
-- Action: $A_t$ is how an agent affects to the environment that can change the state. 
+- State: **S<sub>t</sub>** represents current and future states. 
 
-- Observation: $O_t$ is what an agent recognizes the world for the state $S_t$. 
+- Action: **A<sub>t</sub>** is how an agent affects to the environment that can change the state. 
+
+- Observation: **O<sub>t</sub>** is what an agent recognizes the world for the state $S_t$. 
 
 - Policy: This defines a statergy for chosing an action given a state to maximize the rewards earned by the agent 
 
